@@ -18,7 +18,6 @@ const App = props => {
   const buyItem = item => {
     // dipsatch an action here to add an item
     props.addFeature(item);
-    // props.updatePrice(item.price);
   };
 
   return (

@@ -44,10 +44,6 @@ export const reducer = (state = initialState, action) => {
         additionalFeatures: [...state.additionalFeatures, action.payload]
       };
 
-    case UPDATE_PRICE:
-      console.log("UPDATE_PRICE Reducer: ", action);
-      return state;
-
     // state.additionalFeatures.map(feature => {
     //   if (feature.id === action.payload.id) {
     //     return {
